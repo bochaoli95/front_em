@@ -14,7 +14,7 @@ function App() {
 
     const foregroundProps = useSpring({
         to: { transform: 'scale(1.5)', opacity: 1 },
-        from: { transform: 'scale(1)', opacity: 0.5 },
+        from: { transform: 'scale(1)', opacity: 1 },
         config: { duration: 5000 },
     });
 

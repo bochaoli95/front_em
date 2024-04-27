@@ -68,14 +68,9 @@
 
 .foreground-image {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;  /* 初始宽度稍小于全屏 */
-  height: 100%; /* 初始高度稍小于全屏 */
-  object-fit: cover;
-  z-index: 2; /* 前景图层级高，确保这个值大于背景图的 z-index */
-  margin: auto; /* 居中显示 */
-  /* 居中偏移 */
-  /* 居中偏移 */
+  bottom: 0;         /* 紧贴底部 */
+  left: 0;           /* 沿整个视口的左边对齐 */
+  width: 100%;       /* 宽度等于视口宽度 */
+  object-fit: cover; /* 如果需要的话，保持宽高比 */
+  z-index: 2;        /* 确保在背景图之上 */
 }
-
